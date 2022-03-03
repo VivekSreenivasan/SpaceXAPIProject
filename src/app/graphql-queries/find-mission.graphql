@@ -1,0 +1,8 @@
+query searchMissions($Mission:String) {
+  missionsResult(find: {name: $Mission}) {
+    data {
+      id
+      name
+    }
+  }
+}

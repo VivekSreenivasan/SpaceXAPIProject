@@ -1,0 +1,12 @@
+<ng-container *ngIf="roadsterInformation$ | async as roadster">
+  <mat-grid-list cols="2" rowHeight="2:1">
+      <mat-grid-tile>
+        {{roadster.details}}
+    </mat-grid-tile>
+      <mat-grid-tile>2</mat-grid-tile>
+      <mat-grid-tile>{{roadster.]}</mat-grid-tile>
+      <mat-grid-tile>
+        <a target="_blank" href={{roadster.wikipedia}}>Wikipedia Link</a>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </ng-container>

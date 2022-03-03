@@ -1,0 +1,9 @@
+<!-- #docregion mat-menu-trigger-for -->
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<!-- #enddocregion mat-menu-trigger-for -->
+<mat-menu #menu="matMenu">
+    
+  <a routerLink="/home"><button mat-menu-item>Home</button></a>
+  <a routerLink="/past-launches"><button mat-menu-item>Past Launches</button></a>
+  <a routerLink="/roadster-info"><button mat-menu-item>Roadster Info</button></a>
+</mat-menu>
